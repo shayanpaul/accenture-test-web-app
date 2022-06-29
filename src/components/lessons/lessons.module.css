@@ -1,0 +1,37 @@
+.eachLessonWrapper {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  float: left;
+  height: 200px;
+}
+.imageWrapper {
+  width: 20%;
+  float: left;
+  height: 100%;
+  line-height: 180px;
+  box-sizing: border-box;
+}
+.imageWrapper img {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  margin-left: 20px;
+  width: calc(100% - 20px);
+}
+.infoWrapper {
+  float: left;
+  width: 80%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.duration {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
